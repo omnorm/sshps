@@ -25,7 +25,7 @@ Working with multiple SSH environments (work, personal, cloud, etc.) leads to:
 
 ## Installation
 ```bash
-curl -o sshps https://raw.githubusercontent.com/YOUR-USERNAME/sshps/main/sshps.sh && \
+curl -o sshps https://raw.githubusercontent.com/omnorm/sshps/main/sshps.sh && \
 chmod +x sshps && \
 sudo mv sshps /usr/local/bin/
 ```
