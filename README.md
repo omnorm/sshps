@@ -30,6 +30,15 @@ chmod +x sshps && \
 sudo mv sshps /usr/local/bin/
 ```
 
+## Warning
+❗️ Please, before using the script, make a backup copy of your ~/.ssh/config file:
+❗️ When activating a new profile, the script will overwrite it.
+```bash
+cp ~/.ssh/config ~/.ssh/config.old
+# or
+sshps bak legacy-config
+```
+
 ## Usage
 ```
   sshps sw <profile>      Switch to specified profile
